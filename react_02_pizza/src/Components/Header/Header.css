@@ -1,0 +1,25 @@
+.header {
+  text-align: center;
+}
+
+.header-title {
+  color: #e9cd5a;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.header-title::before {
+  content: '\2013';
+}
+
+.header-title::after {
+  content: '\2013';
+}
+
+.header-subtitle {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  margin: 2rem auto;
+  max-width: 10%;
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+  padding: 0.3rem;
+}

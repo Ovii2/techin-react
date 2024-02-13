@@ -1,0 +1,14 @@
+.header {
+  background-color: #5ea4a4;
+  background-image: url("../../assets/images/bg-header-desktop.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 3rem;
+  margin-bottom: 3rem;
+}
+
+.header-input {
+  width: 72%;
+  height: 4rem;
+  font-size: 3rem;
+}

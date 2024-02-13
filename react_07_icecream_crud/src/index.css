@@ -1,0 +1,20 @@
+
+.loading {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+body {
+  background: linear-gradient(
+    90deg,
+    rgba(46, 248, 142, 1) 0%,
+    rgba(38, 244, 161, 1) 35%,
+    rgba(23, 235, 189, 1) 100%
+  );
+}
+.flavors {
+  border: 3px solid #000;
+  width: 74.2%;
+  margin: 0 auto;
+}

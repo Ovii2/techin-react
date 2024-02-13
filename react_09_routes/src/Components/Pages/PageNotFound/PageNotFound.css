@@ -1,0 +1,10 @@
+.not-found-container {
+  text-align: center;
+}
+
+.not-found-link {
+  background-color: bisque;
+  text-decoration: none;
+  color: rgb(187, 121, 121);
+  padding: 0.3rem;
+}

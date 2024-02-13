@@ -1,0 +1,35 @@
+.colorpick-eyedropper-input-trigger {
+  display: none;
+}
+.ice-cream-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.4rem;
+  box-shadow: 0 0 5px black;
+  width: 50%;
+  padding: 1rem;
+  margin: 1rem auto;
+  border-radius: 0.3rem;
+}
+
+.form-group-flavor,
+.form-group-price {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-group-bgc > label {
+  margin-right: 0.5rem;
+}
+
+.form-group-text > label {
+  margin-right: 2rem;
+}
+.buttons-container > button {
+  background-color: azure;
+  border: none;
+  cursor: pointer;
+  padding: 0.5rem 1.5rem;
+  margin-right: 0.5rem;
+}

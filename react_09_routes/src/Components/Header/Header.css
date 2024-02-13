@@ -1,0 +1,15 @@
+.active {
+  color: #fff;
+  background-color: tomato;
+}
+
+.nav-link {
+  text-decoration: none;
+  padding: 0.5rem;
+  border-radius: 0.3rem;
+}
+
+nav {
+  display: flex;
+  gap: 0.5rem;
+}

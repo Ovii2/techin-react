@@ -1,0 +1,6 @@
+.input-form {
+  display: flex;
+  align-content: center;
+  /* flex-wrap: wrap; */
+  margin-bottom: 1rem;
+}

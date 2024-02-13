@@ -1,0 +1,66 @@
+.card {
+  display: flex;
+  align-items: center;
+  background-color: #fff;
+  margin-bottom: 1.5rem;
+  box-shadow: 10px 10px 8px #dcedef;
+}
+
+.card-image {
+  margin-left: 2rem;
+  display: grid;
+}
+
+.card-text {
+  margin-left: 1rem;
+}
+
+.card-text-header {
+  display: flex;
+  align-items: center;
+}
+
+.card-text-bottom {
+  display: flex;
+  color: grey;
+  font-weight: 600;
+}
+
+.card-company {
+  color: #5ea4a4;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-weight: 600;
+  margin-right: 0.5rem;
+}
+
+.card-new {
+  background-color: #5ea4a4;
+  color: white;
+  padding: 0.2rem 0.2rem;
+  border-radius: 50rem;
+  margin-left: 0.2rem;
+}
+
+.card-featured {
+  background-color: black;
+  color: white;
+  padding: 0.2rem 0.3rem;
+  border-radius: 50rem;
+  margin-left: 0.2rem;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+.card-ago:after {
+  content: "-";
+  margin: 0 1rem;
+}
+
+.card-contract:after {
+  content: "-";
+  margin: 0 1rem;
+}
+
+.card-text-middle {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-weight: 900;
+}

@@ -1,0 +1,28 @@
+.header {
+  text-align: center;
+  border-bottom: 5px solid black;
+}
+
+.search {
+  font-size: 2rem;
+  margin-bottom: 0.3rem;
+  background-color: #cce8fe;
+}
+
+.search:focus {
+  border: 2px solid #91f4d1;
+  outline: none;
+}
+
+@font-face {
+  font-family: "SEGA LOGO FONT";
+  font-style: normal;
+  font-weight: normal;
+  src: local("SEGA LOGO FONT"), url("src/SEGA.woff") format("woff");
+}
+
+h1 {
+  font-family: "SEGA LOGO FONT", serif;
+  font-weight: normal;
+  color: #0bceca;
+}

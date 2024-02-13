@@ -1,0 +1,12 @@
+.button-container {
+  margin-top: 4rem;
+  text-align: center;
+}
+
+button {
+  background-color: #e9cd5a;
+  color: black;
+  padding: 1rem 2rem;
+  border: none;
+  margin-bottom: 2rem;
+}

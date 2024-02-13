@@ -1,0 +1,7 @@
+.flavors-list {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+}

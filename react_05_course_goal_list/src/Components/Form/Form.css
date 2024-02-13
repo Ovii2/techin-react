@@ -1,0 +1,23 @@
+.goal-form {
+  display: grid;
+  justify-items: start;
+  gap: 0.5rem;
+  box-shadow: 0 0 5px #808080a9;
+  padding: 1rem;
+  width: 40%;
+  margin: 0 auto;
+  border-radius: 3%;
+}
+
+.goal-button {
+  background-color: #8b005d;
+  color: #fff;
+  border: none;
+  padding: 0.5rem 1.5rem;
+}
+
+.goal-form > input {
+  width: 20rem;
+  border: 1px solid #80808080;
+  outline: none;
+}

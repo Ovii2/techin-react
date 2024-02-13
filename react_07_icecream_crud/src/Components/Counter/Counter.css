@@ -1,0 +1,24 @@
+.ice-cream-counter-container {
+  grid-template-columns: 2fr 1fr;
+  display: grid;
+}
+
+.ice-cream-counter-left {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  column-gap: 4rem;
+  background-color: black;
+
+  align-items: start;
+  text-align: center;
+}
+
+.total {
+  background-color: white;
+  text-align: center;
+}
+
+.discount {
+  width: 12%;
+  border: none;
+}

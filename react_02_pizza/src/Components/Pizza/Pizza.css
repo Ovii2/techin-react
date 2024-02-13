@@ -1,0 +1,25 @@
+.pizza-card {
+  display: flex;
+  max-width: 80%;
+  position: relative;
+}
+
+.pizza-photo {
+  width: 200px;
+  height: 200px;
+}
+
+.pizza-description {
+  margin-left: 1rem;
+}
+
+.pizza-price {
+  position: absolute;
+  bottom: 0.2rem;
+}
+
+.sold-out {
+  filter: grayscale(100%);
+  width: 200px;
+  height: 200px;
+}

@@ -1,0 +1,11 @@
+.custom-select {
+  margin-top: 1rem;
+  min-width: 20rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+label {
+  margin-right: 0.5rem;
+}

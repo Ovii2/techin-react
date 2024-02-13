@@ -1,0 +1,17 @@
+.app {
+  max-width: 90%;
+  margin: 0 auto;
+}
+
+body {
+  background-color: #f6f2e9;
+}
+
+p {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+h4,
+button {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
