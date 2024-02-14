@@ -1,10 +1,10 @@
-import { Link } from "react-router-dom";
-import "./HomePage.css";
+import { Link } from 'react-router-dom';
+import './HomePage.css';
 
 function HomePage() {
   return (
-    <div className="home-page-container">
-      <div className="home-page">
+    <div className='home-page-container'>
+      <div className='home-page'>
         <h1>Welcome to the blood donor page</h1>
 
         <h3>Why is it Important to Donate Blood?</h3>
@@ -14,7 +14,7 @@ function HomePage() {
           whole blood collected for donation in the U.S. The Red Cross provides about 40% of our
           nation’s blood and blood cell components to donors. Your blood donations are used for
           patients in need of surgery, cancer treatment and transfusions for blood loss from
-          traumatic injuries
+          traumatic injuries.
         </p>
         <h3>Why Cancer Patients Need Blood?</h3>
         <p>
@@ -29,17 +29,17 @@ function HomePage() {
           Maintaining diversity in the blood supply is essential. Some blood types are quite rare
           and are likeliest to be found among people with shared ancestral origins.
         </p>
-        <Link to="/register" className="link ">
+        <Link to='/register' className='link '>
           <b>Click here to save life today!</b>
         </Link>
       </div>
-      <div className="row">
-        <img src={"src/assets/img/blood1.jpg"} alt="donor-image" />
-        <img src={"src/assets/img/blood2.jpg"} alt="donor-image" />
-        <img src={"src/assets/img/blood3.jpg"} alt="donor-image" />
-        <img src={"src/assets/img/blood4.jpg"} alt="donor-image" />
-        <img src={"src/assets/img/blood5.jpg"} alt="donor-image" />
-        <img src={"src/assets/img/blood6.jpg"} alt="donor-image" />
+      <div className='row'>
+        <img src={'src/assets/img/blood1.jpg'} alt='donor-image' />
+        <img src={'src/assets/img/blood2.jpg'} alt='donor-image' />
+        <img src={'src/assets/img/blood3.jpg'} alt='donor-image' />
+        <img src={'src/assets/img/blood4.jpg'} alt='donor-image' />
+        <img src={'src/assets/img/blood5.jpg'} alt='donor-image' />
+        <img src={'src/assets/img/blood6.jpg'} alt='donor-image' />
       </div>
     </div>
   );

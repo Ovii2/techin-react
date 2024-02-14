@@ -1,17 +1,17 @@
-import { Link, useParams } from "react-router-dom";
-import { useEffect, useState } from "react";
-import axios from "axios";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faCircleLeft } from "@fortawesome/free-regular-svg-icons";
-import "./CardDetails.css";
-import { useForm } from "react-hook-form";
-import { toast } from "react-toastify";
-import { updateData } from "../services/update";
+import { Link, useParams } from 'react-router-dom';
+import { useEffect, useState } from 'react';
+import axios from 'axios';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faCircleLeft } from '@fortawesome/free-regular-svg-icons';
+import './CardDetails.css';
+import { useForm } from 'react-hook-form';
+import { toast } from 'react-toastify';
+import { updateData } from '../services/update';
 
 function CardDetails({ setUpdate }) {
   const [donor, setDonor] = useState({});
   const [edit, setEdit] = useState(false);
-  const { firstName, lastName, age, sex, bloodGroup } = donor;
+  const { firstName, lastName, age, gender, bloodGroup } = donor;
   const { id } = useParams();
 
   const { setValue, reset, handleSubmit } = useForm();
@@ -25,11 +25,11 @@ function CardDetails({ setUpdate }) {
 
   useEffect(() => {
     if (donor) {
-      setValue("firstName", donor.firstName);
-      setValue("lastName", donor.lastName);
-      setValue("age", donor.age);
-      setValue("gender", donor.gender);
-      setValue("bloodGroup", donor.bloodGroup);
+      setValue('firstName', donor.firstName);
+      setValue('lastName', donor.lastName);
+      setValue('age', donor.age);
+      setValue('gender', donor.gender);
+      setValue('bloodGroup', donor.bloodGroup);
     }
   }, [donor, setValue]);
 
@@ -45,31 +45,34 @@ function CardDetails({ setUpdate }) {
   };
 
   return (
-    <div className="card-details">
+    <div className='card-details'>
       <h1>{`More information about donor ${firstName}`}</h1>
-      <div className="detailed-card">
-        <Link to="/donors-list" className="arrow-link">
-          <FontAwesomeIcon icon={faCircleLeft} className="left-arrow" />
-          <span className="arrow-text">Go back</span>
+      <div className='detailed-card'>
+        <Link to='/donors-list' className='arrow-link'>
+          <FontAwesomeIcon icon={faCircleLeft} className='left-arrow' />
+          <span className='arrow-text'>Go back</span>
         </Link>
         {edit ? (
-          <div className="edit-column">
+          <div className='edit-column'>
             <input
-              type="text"
+              type='text'
               value={donor.firstName}
               onChange={(e) => setDonor({ ...donor, firstName: e.target.value })}
             />
             <input
-              type="text"
+              type='text'
               value={donor.lastName}
               onChange={(e) => setDonor({ ...donor, lastName: e.target.value })}
             />
             <input
-              type="number"
+              type='number'
               value={donor.age}
               onChange={(e) => setDonor({ ...donor, age: e.target.value })}
             />
-            <select value={donor.sex} onChange={(e) => setDonor({ ...donor, sex: e.target.value })}>
+            <select
+              value={donor.gender}
+              onChange={(e) => setDonor({ ...donor, gender: e.target.value })}
+            >
               <option>Male</option>
               <option>Female</option>
             </select>
@@ -88,7 +91,7 @@ function CardDetails({ setUpdate }) {
             <h3>First name: {firstName}</h3>
             <h4>Last name: {lastName}</h4>
             <p>Age: {age}</p>
-            <p>Sex: {sex}</p>
+            <p>Gender: {gender}</p>
             <p>Blood group: {bloodGroup}</p>
           </>
         )}

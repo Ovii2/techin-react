@@ -4,25 +4,17 @@
       "id": "22e3",
       "firstName": "donor",
       "lastName": "a donor",
-      "age": 25,
-      "gender": "female",
-      "bloodGroup": "B"
+      "age": 60,
+      "gender": "Female",
+      "bloodGroup": "AB"
     },
     {
       "id": "8351",
       "firstName": "one more try",
       "lastName": "good donor",
       "age": 35,
-      "gender": "male",
+      "gender": "Female",
       "bloodGroup": "B"
-    },
-    {
-      "id": "01d5",
-      "firstName": "asd",
-      "lastName": "ccc",
-      "age": 25,
-      "gender": "female",
-      "bloodGroup": "AB"
     }
   ]
 }
