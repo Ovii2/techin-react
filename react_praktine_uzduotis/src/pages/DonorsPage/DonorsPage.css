@@ -1,0 +1,10 @@
+.donors-page {
+  max-width: 80%;
+  margin-left: 2rem;
+  margin-top: 2rem;
+}
+
+.card-list {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}

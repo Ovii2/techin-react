@@ -1,0 +1,16 @@
+.not-found-container {
+  text-align: center;
+}
+
+.message {
+  margin-bottom: 1rem;
+}
+.not-found-link {
+  color: #000;
+  text-decoration: none;
+  background-color: #1fbccf;
+  margin-top: 1rem;
+  padding: 0.3rem;
+  border-radius: 0.3rem;
+  padding: 0.5rem;
+}
