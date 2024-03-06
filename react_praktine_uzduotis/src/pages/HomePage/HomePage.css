@@ -29,8 +29,8 @@
 }
 
 img {
-  max-width: 90%;
-  max-height: 95%;
+  width: 35rem;
+  height: 22.5rem;
 }
 
 .row {
@@ -39,4 +39,6 @@ img {
   align-items: center;
   justify-items: center;
   gap: 0.5rem;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
 }
